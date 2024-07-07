@@ -263,9 +263,7 @@ To update the output files with your changes, run
 
 ### Publishing Releases
 ```bash
-npm run build
-git commit -a -m "Build distribution"
-npm version minor # or major/patch
-npm publish
-git push --follow-tags
+pnpm build
+pnpm publish
+pnpm git push --follow-tags
 ```

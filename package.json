@@ -5,7 +5,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "mocha --reporter-option maxDiffSize=0 --exit",
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "prepublishOnly": "node prepublish.js"
   },
   "author": "Bobby Brennan",
   "license": "MIT",
